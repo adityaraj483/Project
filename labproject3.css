@@ -1,0 +1,71 @@
+header{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 25px;
+    font-style: italic;
+    padding: 10px;
+}
+body{
+    background-image: url(img.jpg);
+}
+
+.right{
+    float: right;
+    margin-right: 10px;
+}
+.leftside{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-left: 17%;
+    margin-top: 10%;
+    border: solid 2px rgb(125, 224, 206);
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.rightside{
+    font-size: 20px;
+    margin-top: 10%;
+    background-color:whitesmoke;
+    padding: 40px;
+    padding-bottom: 130px;
+    margin-right: 12%;
+    border-radius: 20px;
+}
+.box{
+    color: black;
+    font-weight: bold;
+   margin-right: 20px;
+}
+#firstname{
+    margin-left: 16px;
+
+}
+#middlename{
+    margin-left: 8px;
+}
+#lastname{
+    margin-left: 18px;
+}
+#suggestions{
+    margin-left: 11px;
+}
+
+#gender{
+    color:green;
+}
+.button{
+    border: solid green 3px;
+    color: black;
+    font-size: 20px;
+    background:#00fff0;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px;
+    width: 30%;
+}
+footer{
+    margin-top: 41.5%;
+    color: blanchedalmond;
+    background-color: black;
+    padding: 15px;
+}

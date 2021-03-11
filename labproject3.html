@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+
+<body>
+    <main>
+        <link rel="stylesheet" href="labproject3.css">
+
+        <header>
+
+            <span class="left">Feedback</span>
+            <span class="right">Help us to improve</span>
+        </header>
+        <div class="row">
+
+            <div class="leftside" style=" height: 100%; width: 25%;float: left; ">
+                <form id="my-form">
+                    <h2>Details</h2>
+                    <div>
+                        <span class="box">First Name:</span>*<input type="text" id="firstname" required>
+                    </div><br>
+                    <div>
+                        <span class="box" >Middle Name:</span><input type="text" id="middlename">
+
+                    </div><br>
+                    <div>
+                        <span class="box">Last Name:</span>*<input type="text" id="lastname" required>
+                    </div>
+                    <div><br>
+                        <span class="box">Suggestions:</span>*<input type="text" id="suggestions" required>
+                    </div>
+                    <div><br>
+                        <span class="box">Gender:*</span>
+                        <span class="box">Male</span><input type="radio" name="gender" id="male" value="male" required> 
+                        <span class="box"> Female</span><input type="radio" name="gender" id="female" value="female" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="+" class="button">
+                        <input type="reset" value="-" class="button">
+                    </div>
+                </form>
+            </div>
+            <div class="rightside" id="msg" style="float: right;height: 100%; width: 20%;"></div>
+        </div>
+
+        <footer>
+            @202120047
+        </footer>
+    </main>
+    <script src="labproject3.js"></script>
+
+</body>
+
+</html>
